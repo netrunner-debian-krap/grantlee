@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+DEB_DH_INSTALL_SOURCEDIR := debian/tmp
+
+include /usr/share/cdbs/1/class/cmake.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+DEB_DH_MAKESHLIBS_ARGS_ALL = -V
+
+include /usr/share/pkg-kdepim-tools/cdbs/1/checkmissing.mk
+
+binary: check-missing-files
