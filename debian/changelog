@@ -1,3 +1,12 @@
+grantlee (0.1.7-1) unstable; urgency=low
+
+  * New upstream release 
+  * Set compat level to 7
+  * Include cdbs util.mk in rules to check missing files
+  * Enable DEB_BUILD_PARALLEL
+
+ -- Bjoern Ricks <bjoern.ricks@intevation.de>  Fri, 10 Dec 2010 11:22:37 +0100
+
 grantlee (0.1.4-1) unstable; urgency=low
 
   * Initial release
