@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.1.4 i386
+# SymbolsHelper-Confirmed: 0.1.7 i386
 libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee10SafeString12NestedString10push_frontERKS0_@Base 0.1.4
  _ZN8Grantlee10SafeString12NestedString10setUnicodeEPK5QChari@Base 0.1.4
@@ -113,9 +113,17 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee12VariableNodeD0Ev@Base 0.1.4
  _ZN8Grantlee12VariableNodeD1Ev@Base 0.1.4
  _ZN8Grantlee12isSafeStringERK8QVariant@Base 0.1.4
+ _ZN8Grantlee13RenderContext3popEv@Base 0.1.7
+ _ZN8Grantlee13RenderContext4dataEPNS_4NodeE@Base 0.1.7
+ _ZN8Grantlee13RenderContext4pushEv@Base 0.1.7
+ _ZN8Grantlee13RenderContextC1Ev@Base 0.1.7
+ _ZN8Grantlee13RenderContextC2Ev@Base 0.1.7
+ _ZN8Grantlee13RenderContextD1Ev@Base 0.1.7
+ _ZN8Grantlee13RenderContextD2Ev@Base 0.1.7
  _ZN8Grantlee13getSafeStringERK8QVariant@Base 0.1.4
  _ZN8Grantlee13variantIsTrueERK8QVariant@Base 0.1.4
  _ZN8Grantlee13variantToListERK8QVariant@Base 0.1.4
+ _ZN8Grantlee15doQobjectLookUpEPK7QObjectRK7QString@Base 0.1.7
  _ZN8Grantlee15markForEscapingERKNS_10SafeStringE@Base 0.1.4
  _ZN8Grantlee16FilterExpressionC1ERK7QStringPNS_6ParserE@Base 0.1.4
  _ZN8Grantlee16FilterExpressionC1ERKS0_@Base 0.1.4
@@ -140,6 +148,12 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee22AbstractTemplateLoaderD0Ev@Base 0.1.4
  _ZN8Grantlee22AbstractTemplateLoaderD1Ev@Base 0.1.4
  _ZN8Grantlee22AbstractTemplateLoaderD2Ev@Base 0.1.4
+ _ZN8Grantlee22CachingLoaderDecorator5clearEv@Base 0.1.7
+ _ZN8Grantlee22CachingLoaderDecoratorC1E14QSharedPointerINS_22AbstractTemplateLoaderEE@Base 0.1.7
+ _ZN8Grantlee22CachingLoaderDecoratorC2E14QSharedPointerINS_22AbstractTemplateLoaderEE@Base 0.1.7
+ _ZN8Grantlee22CachingLoaderDecoratorD0Ev@Base 0.1.7
+ _ZN8Grantlee22CachingLoaderDecoratorD1Ev@Base 0.1.7
+ _ZN8Grantlee22CachingLoaderDecoratorD2Ev@Base 0.1.7
  _ZN8Grantlee22InMemoryTemplateLoader11setTemplateERK7QStringS3_@Base 0.1.4
  _ZN8Grantlee22InMemoryTemplateLoaderC1Ev@Base 0.1.4
  _ZN8Grantlee22InMemoryTemplateLoaderC2Ev@Base 0.1.4
@@ -217,6 +231,14 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee7ContextD1Ev@Base 0.1.4
  _ZN8Grantlee7ContextD2Ev@Base 0.1.4
  _ZN8Grantlee7ContextaSERKS0_@Base 0.1.4
+ _ZN8Grantlee8MetaType12internalLockEv@Base 0.1.7
+ _ZN8Grantlee8MetaType13toVariantListERK8QVariant@Base 0.1.7
+ _ZN8Grantlee8MetaType14internalUnlockEv@Base 0.1.7
+ _ZN8Grantlee8MetaType22registerLookUpOperatorEiPF8QVariantRKS1_RK7QStringE@Base 0.1.7
+ _ZN8Grantlee8MetaType23lookupAlreadyRegisteredEi@Base 0.1.7
+ _ZN8Grantlee8MetaType23toListAlreadyRegisteredEi@Base 0.1.7
+ (optional=templinst)_ZN8Grantlee8MetaType29registerToVariantListOperatorEiPF5QListI8QVariantERKS2_E@Base 0.1.7
+ _ZN8Grantlee8MetaType6lookupERK8QVariantRK7QString@Base 0.1.7
  _ZN8Grantlee8NodeList6appendE5QListIPNS_4NodeEE@Base 0.1.4
  _ZN8Grantlee8NodeList6appendEPNS_4NodeE@Base 0.1.4
  _ZN8Grantlee8NodeList6renderEPNS_12OutputStreamEPNS_7ContextE@Base 0.1.4
@@ -271,6 +293,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee10SafeString12NestedString7trimmedEv@Base 0.1.4
  _ZNK8Grantlee10SafeString12NestedString8repeatedEi@Base 0.1.4
  _ZNK8Grantlee10SafeString6isSafeEv@Base 0.1.4
+ _ZNK8Grantlee10SafeStringcv8QVariantEv@Base 0.1.7
  _ZNK8Grantlee10SafeStringeqERK7QString@Base 0.1.4
  _ZNK8Grantlee10SafeStringeqERKS0_@Base 0.1.4
  _ZNK8Grantlee12OutputStream17conditionalEscapeERKNS_10SafeStringE@Base 0.1.4
@@ -281,6 +304,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee12TemplateImpl6engineEv@Base 0.1.4
  _ZNK8Grantlee12TemplateImpl8nodeListEv@Base 0.1.4
  _ZNK8Grantlee12VariableNode10metaObjectEv@Base 0.1.4
+ _ZNK8Grantlee13RenderContext8containsEPNS_4NodeE@Base 0.1.7
  _ZNK8Grantlee16FilterExpression6isTrueEPNS_7ContextE@Base 0.1.4
  _ZNK8Grantlee16FilterExpression6toListEPNS_7ContextE@Base 0.1.4
  _ZNK8Grantlee16FilterExpression7filtersEv@Base 0.1.4
@@ -291,6 +315,11 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee19AbstractNodeFactory10metaObjectEv@Base 0.1.4
  _ZNK8Grantlee19AbstractNodeFactory10smartSplitERK7QString@Base 0.1.4
  _ZNK8Grantlee19AbstractNodeFactory23getFilterExpressionListERK11QStringListPNS_6ParserE@Base 0.1.4
+ _ZNK8Grantlee22CachingLoaderDecorator10loadByNameERK7QStringPKNS_6EngineE@Base 0.1.7
+ _ZNK8Grantlee22CachingLoaderDecorator11getMediaUriERK7QString@Base 0.1.7
+ _ZNK8Grantlee22CachingLoaderDecorator15canLoadTemplateERK7QString@Base 0.1.7
+ _ZNK8Grantlee22CachingLoaderDecorator4sizeEv@Base 0.1.7
+ _ZNK8Grantlee22CachingLoaderDecorator7isEmptyEv@Base 0.1.7
  _ZNK8Grantlee22InMemoryTemplateLoader10loadByNameERK7QStringPKNS_6EngineE@Base 0.1.4
  _ZNK8Grantlee22InMemoryTemplateLoader11getMediaUriERK7QString@Base 0.1.4
  _ZNK8Grantlee22InMemoryTemplateLoader15canLoadTemplateERK7QString@Base 0.1.4
@@ -313,6 +342,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee7Context10autoEscapeEv@Base 0.1.4
  _ZNK8Grantlee7Context10isMutatingEv@Base 0.1.4
  _ZNK8Grantlee7Context13externalMediaEv@Base 0.1.4
+ _ZNK8Grantlee7Context13renderContextEv@Base 0.1.7
  _ZNK8Grantlee7Context17relativeMediaPathEv@Base 0.1.4
  _ZNK8Grantlee7Context6lookupERK7QString@Base 0.1.4
  _ZNK8Grantlee7Context7urlTypeEv@Base 0.1.4
@@ -329,6 +359,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZTIN8Grantlee12VariableNodeE@Base 0.1.4
  _ZTIN8Grantlee19AbstractNodeFactoryE@Base 0.1.4
  _ZTIN8Grantlee22AbstractTemplateLoaderE@Base 0.1.4
+ _ZTIN8Grantlee22CachingLoaderDecoratorE@Base 0.1.7
  _ZTIN8Grantlee22InMemoryTemplateLoaderE@Base 0.1.4
  _ZTIN8Grantlee24FileSystemTemplateLoaderE@Base 0.1.4
  _ZTIN8Grantlee4NodeE@Base 0.1.4
@@ -342,6 +373,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZTSN8Grantlee12VariableNodeE@Base 0.1.4
  _ZTSN8Grantlee19AbstractNodeFactoryE@Base 0.1.4
  _ZTSN8Grantlee22AbstractTemplateLoaderE@Base 0.1.4
+ _ZTSN8Grantlee22CachingLoaderDecoratorE@Base 0.1.7
  _ZTSN8Grantlee22InMemoryTemplateLoaderE@Base 0.1.4
  _ZTSN8Grantlee24FileSystemTemplateLoaderE@Base 0.1.4
  _ZTSN8Grantlee4NodeE@Base 0.1.4
@@ -355,6 +387,7 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZTVN8Grantlee12VariableNodeE@Base 0.1.4
  _ZTVN8Grantlee19AbstractNodeFactoryE@Base 0.1.4
  _ZTVN8Grantlee22AbstractTemplateLoaderE@Base 0.1.4
+ _ZTVN8Grantlee22CachingLoaderDecoratorE@Base 0.1.7
  _ZTVN8Grantlee22InMemoryTemplateLoaderE@Base 0.1.4
  _ZTVN8Grantlee24FileSystemTemplateLoaderE@Base 0.1.4
  _ZTVN8Grantlee4NodeE@Base 0.1.4
