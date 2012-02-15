@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.1.4 i386
+# SymbolsHelper-Confirmed: 0.2.0 i386
 libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee14MarkupDirector11processListEN10QTextFrame8iteratorERK10QTextBlockP9QTextList@Base 0.1.4
  _ZN8Grantlee14MarkupDirector12processBlockEN10QTextFrame8iteratorERK10QTextBlock@Base 0.1.4
@@ -72,8 +72,8 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee15TextHTMLBuilderD0Ev@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilderD1Ev@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilderD2Ev@Base 0.1.4
- _ZN8Grantlee21AbstractMarkupBuilderD0Ev@Base 0.1.4
- _ZN8Grantlee21AbstractMarkupBuilderD1Ev@Base 0.1.4
+#MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD0Ev@Base 0.1.4
+#MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD1Ev@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder10addNewlineEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder10beginTableEddRK7QString@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11beginAnchorERK7QStringS3_@Base 0.1.4
