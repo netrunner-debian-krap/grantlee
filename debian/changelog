@@ -1,8 +1,9 @@
 grantlee (0.2.0-1) unstable; urgency=low
 
   * New upstream reelase
+  * Add grantlee_i18ntags.so plugin to libgrantlee-core0
 
- -- Bjoern Ricks <bjoern.ricks@intevation.de>  Wed, 15 Feb 2012 11:48:41 +0100
+ -- Bjoern Ricks <bjoern.ricks@intevation.de>  Wed, 15 Feb 2012 13:26:47 +0100
 
 grantlee (0.1.7-1) unstable; urgency=low
 
