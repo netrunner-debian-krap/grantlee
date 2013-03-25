@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.2.0 i386
+# SymbolsHelper-Confirmed: 0.3.0 amd64
 libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZGVZN8Grantlee8MetaType4initEvE1i@Base 0.2.0
  _ZN8Grantlee10SafeString12NestedString10push_frontERKS0_@Base 0.1.4
@@ -312,6 +312,8 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee8VariableaSERKS0_@Base 0.1.4
  _ZN8Grantlee8markSafeERKNS_10SafeStringE@Base 0.1.4
  _ZN8Grantlee8toStringERK5QListI8QVariantE@Base 0.1.4
+ _ZN8Grantlee9ExceptionC1ERKS0_@Base 0.3.0
+ _ZN8Grantlee9ExceptionC2ERKS0_@Base 0.3.0
 #MISSING: 0.2.0# _ZN8Grantlee9ExceptionD0Ev@Base 0.1.4
 #MISSING: 0.2.0# _ZN8Grantlee9ExceptionD1Ev@Base 0.1.4
  _ZNK8Grantlee10SafeString11needsEscapeEv@Base 0.1.4
@@ -419,8 +421,11 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee8NodeList15containsNonTextEv@Base 0.1.4
  _ZNK8Grantlee8TextNode10metaObjectEv@Base 0.1.4
  _ZNK8Grantlee8Variable10isConstantEv@Base 0.1.4
+ _ZNK8Grantlee8Variable11isLocalizedEv@Base 0.3.0
  _ZNK8Grantlee8Variable6isTrueEPNS_7ContextE@Base 0.1.4
  _ZNK8Grantlee8Variable7isValidEv@Base 0.1.4
+ _ZNK8Grantlee8Variable7literalEv@Base 0.3.0
+ _ZNK8Grantlee8Variable7lookupsEv@Base 0.3.0
  _ZNK8Grantlee8Variable7resolveEPNS_7ContextE@Base 0.1.4
 #MISSING: 0.2.0# _ZNK8Grantlee9Exception4whatEv@Base 0.1.4
  _ZTIN8Grantlee11QtLocalizerE@Base 0.2.0
