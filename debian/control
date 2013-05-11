@@ -8,6 +8,8 @@ Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
 Build-Depends: cdbs, debhelper (>= 9), libqt4-dev (>= 4.5), cmake
 Standards-Version: 3.9.4
 Homepage: http://www.grantlee.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/grantlee.git
+Vcs-Git: git://git.debian.org/pkg-kde/krap/grantlee.git
 
 Package: libgrantlee-gui0
 Architecture: any
