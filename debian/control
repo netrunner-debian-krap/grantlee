@@ -6,7 +6,7 @@ Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cdbs, debhelper (>= 9), libqt4-dev (>= 4.5), cmake
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 Homepage: http://www.grantlee.org/
 
 Package: libgrantlee-gui0
