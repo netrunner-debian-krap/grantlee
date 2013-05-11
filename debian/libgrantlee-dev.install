@@ -6,6 +6,6 @@ usr/lib/cmake/grantlee/GrantleeConfigVersion.cmake
 usr/lib/cmake/grantlee/GrantleeUse.cmake
 usr/lib/cmake/grantlee/GrantleeParseArguments.cmake
 usr/lib/cmake/grantlee/GrantleeTargets.cmake
-usr/lib/cmake/grantlee/GrantleeTargets-noconfig.cmake
+usr/lib/cmake/grantlee/GrantleeTargets-relwithdebinfo.cmake
 usr/lib/libgrantlee_core.so
 usr/lib/libgrantlee_gui.so
