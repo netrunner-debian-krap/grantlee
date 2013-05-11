@@ -1,10 +1,15 @@
-grantlee (0.3.0-1) experimental; urgency=low
+grantlee (0.3.0-1) unstable; urgency=low
 
   * New upstream release
+
+  [ Sune Vuorela ]
   * Add myself to uploaders
   * Update symbols files
 
- -- Sune Vuorela <sune@debian.org>  Mon, 25 Mar 2013 15:46:10 +0100
+  [ Maximiliano Curia ]
+  * Add myself to uploaders
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Mar 2013 15:46:10 +0100
 
 grantlee (0.2.0-1) unstable; urgency=low
 
