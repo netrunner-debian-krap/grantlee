@@ -12,6 +12,7 @@ grantlee (0.3.0-1) unstable; urgency=low
   * Bump debhelper build-dep and compat to 9
   * Bump Standards-Version to 3.9.4
   * Add Vcs-Git and Vcs-Browser fields
+  * Update symbols files
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Mar 2013 15:46:10 +0100
 
