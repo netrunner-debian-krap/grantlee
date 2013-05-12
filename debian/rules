@@ -2,7 +2,11 @@
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
-.PHONY: override_dh_auto_test
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_TESTS=ON
+
+override_dh_auto_test:
+	xvfb-run dh_auto_test
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -X/usr/lib/grantlee/

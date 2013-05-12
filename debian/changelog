@@ -5,6 +5,10 @@ grantlee (0.3.0-3) UNRELEASED; urgency=low
   * Update Vcs-* headers.
   * Add the pkg-kde-tools build dependency and make use of the
     pkgkde_symbolshelper dh addon for subst-using symbols.
+  * Enable the test suite:
+    - padd -DENABLE_TESTS=ON to cmake
+    - run dh_auto_test under xvfb-run, as some tests need X
+    - add the xvfb and xauth build dependencies
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 May 2013 16:17:15 +0200
 
