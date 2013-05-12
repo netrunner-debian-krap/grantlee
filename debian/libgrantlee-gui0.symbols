@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.2.0 i386
+# SymbolsHelper-Confirmed: 0.3.0 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390 sparc
 libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee14MarkupDirector11processListEN10QTextFrame8iteratorERK10QTextBlockP9QTextList@Base 0.1.4
  _ZN8Grantlee14MarkupDirector12processBlockEN10QTextFrame8iteratorERK10QTextBlock@Base 0.1.4
@@ -24,13 +24,13 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee14MarkupDirectorD1Ev@Base 0.1.4
  _ZN8Grantlee14MarkupDirectorD2Ev@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder10addNewlineEv@Base 0.1.4
- _ZN8Grantlee15TextHTMLBuilder10beginTableEddRK7QString@Base 0.1.4
+ (subst)_ZN8Grantlee15TextHTMLBuilder10beginTableE{qreal}{qreal}RK7QString@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder11beginAnchorERK7QStringS3_@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder11beginHeaderEi@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder11beginStrongEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder11endListItemEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder11endTableRowEv@Base 0.1.4
- _ZN8Grantlee15TextHTMLBuilder11insertImageERK7QStringdd@Base 0.1.4
+ (subst)_ZN8Grantlee15TextHTMLBuilder11insertImageERK7QString{qreal}{qreal}@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder12endParagraphEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder12endStrikeoutEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder12endSubscriptEv@Base 0.1.4
@@ -42,7 +42,7 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee15TextHTMLBuilder13endBackgroundEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder13endFontFamilyEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder13endForegroundEv@Base 0.1.4
- _ZN8Grantlee15TextHTMLBuilder14beginParagraphE6QFlagsIN2Qt13AlignmentFlagEEdddd@Base 0.1.4
+ (subst)_ZN8Grantlee15TextHTMLBuilder14beginParagraphE6QFlagsIN2Qt13AlignmentFlagEE{qreal}{qreal}{qreal}{qreal}@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder14beginStrikeoutEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder14beginSubscriptEv@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilder14beginTableCellERK7QStringii@Base 0.1.4
@@ -75,13 +75,13 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
 #MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD0Ev@Base 0.1.4
 #MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD1Ev@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder10addNewlineEv@Base 0.1.4
- _ZN8Grantlee22PlainTextMarkupBuilder10beginTableEddRK7QString@Base 0.1.4
+ (subst)_ZN8Grantlee22PlainTextMarkupBuilder10beginTableE{qreal}{qreal}RK7QString@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11beginAnchorERK7QStringS3_@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11beginHeaderEi@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11beginStrongEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11endListItemEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11endTableRowEv@Base 0.1.4
- _ZN8Grantlee22PlainTextMarkupBuilder11insertImageERK7QStringdd@Base 0.1.4
+ (subst)_ZN8Grantlee22PlainTextMarkupBuilder11insertImageERK7QString{qreal}{qreal}@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder12addReferenceERK7QString@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder12endParagraphEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder12endStrikeoutEv@Base 0.1.4
@@ -94,7 +94,7 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee22PlainTextMarkupBuilder13endBackgroundEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder13endFontFamilyEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder13endForegroundEv@Base 0.1.4
- _ZN8Grantlee22PlainTextMarkupBuilder14beginParagraphE6QFlagsIN2Qt13AlignmentFlagEEdddd@Base 0.1.4
+ (subst)_ZN8Grantlee22PlainTextMarkupBuilder14beginParagraphE6QFlagsIN2Qt13AlignmentFlagEE{qreal}{qreal}{qreal}{qreal}@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder14beginStrikeoutEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder14beginSubscriptEv@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder14beginTableCellERK7QStringii@Base 0.1.4
@@ -152,12 +152,12 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginHeader(int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginList(QTextListFormat::Style)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginListItem()@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginParagraph(QFlags<Qt::AlignmentFlag>, double, double, double, double)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginParagraph(QFlags<Qt::AlignmentFlag>, {c++:qreal}, {c++:qreal}, {c++:qreal}, {c++:qreal})@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginStrikeout()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginStrong()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginSubscript()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginSuperscript()@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginTable(double, double, QString const&)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginTable({c++:qreal}, {c++:qreal}, QString const&)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginTableCell(QString const&, int, int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginTableHeaderCell(QString const&, int, int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::beginTableRow()@Base" 0.1.4
@@ -183,7 +183,7 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::endUnderline()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::getResult()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::insertHorizontalRule(int)@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::insertImage(QString const&, double, double)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::PlainTextMarkupBuilder::insertImage(QString const&, {c++:qreal}, {c++:qreal})@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::~PlainTextMarkupBuilder()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::addNewline()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::appendLiteralText(QString const&)@Base" 0.1.4
@@ -197,12 +197,12 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginHeader(int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginList(QTextListFormat::Style)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginListItem()@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginParagraph(QFlags<Qt::AlignmentFlag>, double, double, double, double)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::TextHTMLBuilder::beginParagraph(QFlags<Qt::AlignmentFlag>, {c++:qreal}, {c++:qreal}, {c++:qreal}, {c++:qreal})@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginStrikeout()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginStrong()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginSubscript()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginSuperscript()@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginTable(double, double, QString const&)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::TextHTMLBuilder::beginTable({c++:qreal}, {c++:qreal}, QString const&)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginTableCell(QString const&, int, int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginTableHeaderCell(QString const&, int, int)@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::beginTableRow()@Base" 0.1.4
@@ -228,5 +228,5 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::endUnderline()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::getResult()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::insertHorizontalRule(int)@Base" 0.1.4
- (c++)"virtual thunk to Grantlee::TextHTMLBuilder::insertImage(QString const&, double, double)@Base" 0.1.4
+ (c++|subst)"virtual thunk to Grantlee::TextHTMLBuilder::insertImage(QString const&, {c++:qreal}, {c++:qreal})@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::TextHTMLBuilder::~TextHTMLBuilder()@Base" 0.1.4
