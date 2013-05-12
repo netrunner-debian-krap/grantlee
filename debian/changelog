@@ -1,12 +1,5 @@
-grantlee (0.3.0-1) unstable; urgency=low
+grantlee (0.3.0-2) unstable; urgency=low
 
-  * New upstream release (Closes: #691540)
-
-  [ Sune Vuorela ]
-  * Add myself to uploaders
-  * Update symbols files
-
-  [ Maximiliano Curia ]
   * Add myself to uploaders
   * Add a watch file
   * Bump debhelper build-dep and compat to 9
@@ -15,7 +8,15 @@ grantlee (0.3.0-1) unstable; urgency=low
   * Migrate cdbs to dh
   * Update symbols files
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Mar 2013 15:46:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 12 May 2013 13:24:24 +0200
+
+grantlee (0.3.0-1) experimental; urgency=low
+
+  * New upstream release
+  * Add myself to uploaders
+  * Update symbols files
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 25 Mar 2013 15:46:10 +0100
 
 grantlee (0.2.0-1) unstable; urgency=low
 
