@@ -1,6 +1,6 @@
 grantlee (0.3.0-1) unstable; urgency=low
 
-  * New upstream release
+  * New upstream release (Closes: #691540)
 
   [ Sune Vuorela ]
   * Add myself to uploaders
