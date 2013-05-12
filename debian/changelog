@@ -2,6 +2,7 @@ grantlee (0.3.0-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update symbols files.
+  * Update Vcs-* headers.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 May 2013 16:17:15 +0200
 
