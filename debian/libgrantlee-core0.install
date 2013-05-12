@@ -1,6 +1,6 @@
 usr/lib/grantlee/0.3/grantlee_defaultfilters.so
 usr/lib/grantlee/0.3/grantlee_defaulttags.so
-usr/lib/grantlee/0.3/grantlee_loadertags.so
 usr/lib/grantlee/0.3/grantlee_i18ntags.so
+usr/lib/grantlee/0.3/grantlee_loadertags.so
 usr/lib/libgrantlee_core.so.0
 usr/lib/libgrantlee_core.so.0.3.0
