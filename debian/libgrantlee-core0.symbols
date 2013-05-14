@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.3.0 amd64
+# SymbolsHelper-Confirmed: 0.3.0 amd64 armhf
 libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZGVZN8Grantlee8MetaType4initEvE1i@Base 0.2.0
  _ZN8Grantlee10SafeString12NestedString10push_frontERKS0_@Base 0.1.4
@@ -342,13 +342,13 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee11QtLocalizer12localizeDateERK5QDateN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer12localizeTimeERK5QTimeN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer13currentLocaleEv@Base 0.2.0
- _ZNK8Grantlee11QtLocalizer14localizeNumberEd@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer14localizeNumberEi@Base 0.2.0
+ (subst)_ZNK8Grantlee11QtLocalizer14localizeNumberE{qreal}@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer14localizeStringERK7QStringRK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer16localizeDateTimeERK9QDateTimeN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer20localizePluralStringERK7QStringS3_RK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer21localizeContextStringERK7QStringS3_RK5QListI8QVariantE@Base 0.2.0
- _ZNK8Grantlee11QtLocalizer21localizeMonetaryValueEdRK7QString@Base 0.2.0
+ (subst)_ZNK8Grantlee11QtLocalizer21localizeMonetaryValueE{qreal}RK7QString@Base 0.2.0
  _ZNK8Grantlee11QtLocalizer27localizePluralContextStringERK7QStringS3_S3_RK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee12OutputStream17conditionalEscapeERKNS_10SafeStringE@Base 0.1.4
  _ZNK8Grantlee12OutputStream5cloneEP11QTextStream@Base 0.1.4
@@ -361,13 +361,13 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee13NullLocalizer12localizeDateERK5QDateN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer12localizeTimeERK5QTimeN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer13currentLocaleEv@Base 0.2.0
- _ZNK8Grantlee13NullLocalizer14localizeNumberEd@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer14localizeNumberEi@Base 0.2.0
+ (subst)_ZNK8Grantlee13NullLocalizer14localizeNumberE{qreal}@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer14localizeStringERK7QStringRK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer16localizeDateTimeERK9QDateTimeN7QLocale10FormatTypeE@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer20localizePluralStringERK7QStringS3_RK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer21localizeContextStringERK7QStringS3_RK5QListI8QVariantE@Base 0.2.0
- _ZNK8Grantlee13NullLocalizer21localizeMonetaryValueEdRK7QString@Base 0.2.0
+ (subst)_ZNK8Grantlee13NullLocalizer21localizeMonetaryValueE{qreal}RK7QString@Base 0.2.0
  _ZNK8Grantlee13NullLocalizer27localizePluralContextStringERK7QStringS3_S3_RK5QListI8QVariantE@Base 0.2.0
  _ZNK8Grantlee13RenderContext8containsEPNS_4NodeE@Base 0.1.7
  _ZNK8Grantlee16FilterExpression6isTrueEPNS_7ContextE@Base 0.1.4
