@@ -2,6 +2,8 @@ grantlee (0.3.0-4) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update symbols files.
+  * Fix Grantlee on architectures where qreal is not double but float; patches
+    variantIsTrue-float-fix.diff and testinternationalization-qreal.diff.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 May 2013 15:25:24 +0200
 

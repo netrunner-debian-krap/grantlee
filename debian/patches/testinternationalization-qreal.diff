@@ -1,0 +1,21 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: TestInternationalization: fix the double data in testFloats
+ 7.4 is a double value, and the data expected is qreal; while this is
+ not an issue on platforms where qreal is double, this causes a type
+ mismatch where qreal is float (for example on arm and sh).
+ .
+ The easy fix is just to cast 4.2 as qreal.
+Last-Update: 2013-05-15
+Forwarded: https://www.gitorious.org/grantlee/grantlee/merge_requests/10
+
+--- a/templates/tests/testinternationalization.cpp
++++ b/templates/tests/testinternationalization.cpp
+@@ -798,7 +798,7 @@ void TestInternationalization::testFloat
+   QTest::addColumn<QString>("frFloatingPoint");
+ 
+   QTest::newRow("float-01")
+-    << 7.4
++    << qreal(7.4)
+     << QString::fromLatin1("7.4")
+     << QString::fromLatin1("7.40")
+     << QString::fromLatin1("7.40")
