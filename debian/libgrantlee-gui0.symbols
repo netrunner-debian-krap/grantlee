@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 0.3.0 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390 sparc
 libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
+* Build-Depends-Package: libgrantlee-dev
  _ZN8Grantlee14MarkupDirector11processListEN10QTextFrame8iteratorERK10QTextBlockP9QTextList@Base 0.1.4
  _ZN8Grantlee14MarkupDirector12processBlockEN10QTextFrame8iteratorERK10QTextBlock@Base 0.1.4
  _ZN8Grantlee14MarkupDirector12processFrameEN10QTextFrame8iteratorEPS1_@Base 0.1.4

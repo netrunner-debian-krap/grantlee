@@ -9,6 +9,7 @@ grantlee (0.3.0-4) UNRELEASED; urgency=low
   * Ignore test suite failures on ia64 and sparc64. Apparently QtScript seems
     buggy on these archs, leading to failures in few grantlee tests; since also
     older grantlee versions fail the same way, ingore such failures for now.
+  * Add Build-Depends-Package in symbols files.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 May 2013 15:25:24 +0200
 

@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 0.3.0 amd64 armhf
 libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
+* Build-Depends-Package: libgrantlee-dev
  _ZGVZN8Grantlee8MetaType4initEvE1i@Base 0.2.0
  _ZN8Grantlee10SafeString12NestedString10push_frontERKS0_@Base 0.1.4
  _ZN8Grantlee10SafeString12NestedString10setUnicodeEPK5QChari@Base 0.1.4
