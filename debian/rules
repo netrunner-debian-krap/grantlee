@@ -1,5 +1,12 @@
 #!/usr/bin/make -f
 
+DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+
+testsuite_failing_archs := none
+ifneq (,$(filter $(DEB_HOST_ARCH),$(testsuite_failing_archs)))
+  fail_param := || true
+endif
+
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
@@ -7,7 +14,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- -DBUILD_TESTS=ON
 
 override_dh_auto_test:
-	xvfb-run dh_auto_test
+	xvfb-run dh_auto_test $(fail_param)
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -X/usr/lib/grantlee/
