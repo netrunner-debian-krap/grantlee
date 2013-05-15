@@ -168,7 +168,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee19AbstractNodeFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.1.4
  _ZN8Grantlee19AbstractNodeFactory11qt_metacastEPKc@Base 0.1.4
  _ZN8Grantlee19AbstractNodeFactory16staticMetaObjectE@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee19AbstractNodeFactory9setEngineEPNS_6EngineE@Base 0.1.4
  _ZN8Grantlee19AbstractNodeFactoryC1EP7QObject@Base 0.1.4
  _ZN8Grantlee19AbstractNodeFactoryC2EP7QObject@Base 0.1.4
  _ZN8Grantlee19AbstractNodeFactoryD0Ev@Base 0.1.4
@@ -205,7 +204,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee33LocalizedFileSystemTemplateLoaderD0Ev@Base 0.2.0
  _ZN8Grantlee33LocalizedFileSystemTemplateLoaderD1Ev@Base 0.2.0
  _ZN8Grantlee33LocalizedFileSystemTemplateLoaderD2Ev@Base 0.2.0
-#MISSING: 0.2.0# _ZN8Grantlee4Node11mustBeFirstEv@Base 0.1.4
  _ZN8Grantlee4Node11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.1.4
  _ZN8Grantlee4Node11qt_metacastEPKc@Base 0.1.4
  _ZN8Grantlee4Node16staticMetaObjectE@Base 0.1.4
@@ -233,8 +231,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee6EngineD0Ev@Base 0.1.4
  _ZN8Grantlee6EngineD1Ev@Base 0.1.4
  _ZN8Grantlee6EngineD2Ev@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee6FilterD0Ev@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee6FilterD1Ev@Base 0.1.4
  _ZN8Grantlee6Parser11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.1.4
  _ZN8Grantlee6Parser11qt_metacastEPKc@Base 0.1.4
  _ZN8Grantlee6Parser12prependTokenERKNS_5TokenE@Base 0.1.4
@@ -295,7 +291,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee8TextNode11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.1.4
  _ZN8Grantlee8TextNode11qt_metacastEPKc@Base 0.1.4
  _ZN8Grantlee8TextNode16staticMetaObjectE@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee8TextNode6renderEPNS_12OutputStreamEPNS_7ContextE@Base 0.1.4
  _ZN8Grantlee8TextNodeC1ERK7QStringP7QObject@Base 0.1.4
  _ZN8Grantlee8TextNodeC2ERK7QStringP7QObject@Base 0.1.4
  _ZN8Grantlee8TextNodeD0Ev@Base 0.1.4
@@ -312,8 +307,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZN8Grantlee8VariableaSERKS0_@Base 0.1.4
  _ZN8Grantlee8markSafeERKNS_10SafeStringE@Base 0.1.4
  _ZN8Grantlee8toStringERK5QListI8QVariantE@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee9ExceptionD0Ev@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee9ExceptionD1Ev@Base 0.1.4
  _ZNK8Grantlee10SafeString11needsEscapeEv@Base 0.1.4
  _ZNK8Grantlee10SafeString12NestedString10normalizedEN7QString17NormalizationFormE@Base 0.1.4
  _ZNK8Grantlee10SafeString12NestedString10normalizedEN7QString17NormalizationFormEN5QChar14UnicodeVersionE@Base 0.1.4
@@ -336,7 +329,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee10SafeString12NestedString7trimmedEv@Base 0.1.4
  _ZNK8Grantlee10SafeString12NestedString8repeatedEi@Base 0.1.4
  _ZNK8Grantlee10SafeString6isSafeEv@Base 0.1.4
-#MISSING: 0.2.0# _ZNK8Grantlee10SafeStringcv8QVariantEv@Base 0.1.7
  _ZNK8Grantlee10SafeStringeqERK7QString@Base 0.1.4
  _ZNK8Grantlee10SafeStringeqERKS0_@Base 0.1.4
  _ZNK8Grantlee11QtLocalizer12localizeDateERK5QDateN7QLocale10FormatTypeE@Base 0.2.0
@@ -403,7 +395,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee6Engine16defaultLibrariesEv@Base 0.1.4
  _ZNK8Grantlee6Engine16smartTrimEnabledEv@Base 0.2.0
  _ZNK8Grantlee6Engine8mediaUriERK7QString@Base 0.1.4
-#MISSING: 0.2.0# _ZNK8Grantlee6Filter6isSafeEv@Base 0.1.4
  _ZNK8Grantlee6Parser10metaObjectEv@Base 0.1.4
  _ZNK8Grantlee6Parser12hasNextTokenEv@Base 0.1.4
  _ZNK8Grantlee6Parser9getFilterERK7QString@Base 0.1.4
@@ -425,7 +416,6 @@ libgrantlee_core.so.0 libgrantlee-core0 #MINVER#
  _ZNK8Grantlee8Variable7literalEv@Base 0.3.0
  _ZNK8Grantlee8Variable7lookupsEv@Base 0.3.0
  _ZNK8Grantlee8Variable7resolveEPNS_7ContextE@Base 0.1.4
-#MISSING: 0.2.0# _ZNK8Grantlee9Exception4whatEv@Base 0.1.4
  _ZTIN8Grantlee11QtLocalizerE@Base 0.2.0
  _ZTIN8Grantlee12OutputStreamE@Base 0.1.4
  _ZTIN8Grantlee12TemplateImplE@Base 0.1.4

@@ -72,8 +72,6 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZN8Grantlee15TextHTMLBuilderD0Ev@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilderD1Ev@Base 0.1.4
  _ZN8Grantlee15TextHTMLBuilderD2Ev@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD0Ev@Base 0.1.4
-#MISSING: 0.2.0# _ZN8Grantlee21AbstractMarkupBuilderD1Ev@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder10addNewlineEv@Base 0.1.4
  (subst)_ZN8Grantlee22PlainTextMarkupBuilder10beginTableE{qreal}{qreal}RK7QString@Base 0.1.4
  _ZN8Grantlee22PlainTextMarkupBuilder11beginAnchorERK7QStringS3_@Base 0.1.4
