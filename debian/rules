@@ -2,7 +2,7 @@
 
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
-testsuite_failing_archs := none
+testsuite_failing_archs := ia64 sparc64
 ifneq (,$(filter $(DEB_HOST_ARCH),$(testsuite_failing_archs)))
   fail_param := || true
 endif
