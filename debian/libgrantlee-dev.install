@@ -4,7 +4,7 @@ usr/include/grantlee_templates.h
 usr/lib/cmake/grantlee/GrantleeConfig.cmake
 usr/lib/cmake/grantlee/GrantleeConfigVersion.cmake
 usr/lib/cmake/grantlee/GrantleeParseArguments.cmake
-usr/lib/cmake/grantlee/GrantleeTargets-relwithdebinfo.cmake
+usr/lib/cmake/grantlee/GrantleeTargets-*.cmake
 usr/lib/cmake/grantlee/GrantleeTargets.cmake
 usr/lib/cmake/grantlee/GrantleeUse.cmake
 usr/lib/libgrantlee_core.so
