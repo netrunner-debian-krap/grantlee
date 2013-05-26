@@ -4,7 +4,8 @@ Priority: extra
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
            Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
+           Pino Toscano <pino@debian.org>
 Build-Depends: debhelper (>= 9), libqt4-dev (>= 4.5), cmake, pkg-kde-tools,
  xvfb, xauth
 Standards-Version: 3.9.4
