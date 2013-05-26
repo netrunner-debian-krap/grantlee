@@ -43,3 +43,17 @@ Description: Grantlee templating library development files
  .
  This package contains the development files for building applications
  using grantlee.
+
+Package: grantlee-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends},
+ libgrantlee-core0 (= ${binary:Version}) | libgrantlee-gui0 (= ${binary:Version})
+Suggests: libqt4-dbg
+Description: Grantlee templating library (debugging symbols)
+ Grantlee is a string template engine based on the Django template system
+ and written in Qt.
+ .
+ This package contains the debugging symbols used to investigate issues in
+ Grantlee.

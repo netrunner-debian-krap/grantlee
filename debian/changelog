@@ -4,6 +4,7 @@ grantlee (0.3.0-5) UNRELEASED; urgency=low
   * Slightly modify libgrantlee-dev.install so it is not affected by the actual
     build type used.
   * Add myself to Uploaders.
+  * Add grantlee-dbg with debug symbols.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 14:37:19 +0200
 
