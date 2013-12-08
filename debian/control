@@ -1,6 +1,6 @@
 Source: grantlee
 Section: libs
-Priority: extra
+Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
            Sune Vuorela <sune@debian.org>,

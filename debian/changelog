@@ -11,6 +11,7 @@ grantlee (0.4.0-0r1) UNRELEASED; urgency=low
   * Update .install files.
   * Bump Standards-Version to 3.9.5, no changes required.
   * Convert copyright to copyright-format v1.0, and update it.
+  * Bump default priority of all packages (except grantlee-dbg) to optional.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
 
