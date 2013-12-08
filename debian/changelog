@@ -2,6 +2,7 @@ grantlee (0.4.0-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * New upstream release.
+  * Bump the cmake build dependency to 2.8.9.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
 
