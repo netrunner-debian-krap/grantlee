@@ -1,9 +1,9 @@
 usr/include/grantlee/
 usr/include/grantlee_core.h
 usr/include/grantlee_templates.h
+usr/include/grantlee_textdocument.h
 usr/lib/cmake/grantlee/GrantleeConfig.cmake
 usr/lib/cmake/grantlee/GrantleeConfigVersion.cmake
-usr/lib/cmake/grantlee/GrantleeParseArguments.cmake
 usr/lib/cmake/grantlee/GrantleeTargets-*.cmake
 usr/lib/cmake/grantlee/GrantleeTargets.cmake
 usr/lib/cmake/grantlee/GrantleeUse.cmake

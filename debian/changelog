@@ -8,6 +8,7 @@ grantlee (0.4.0-0r1) UNRELEASED; urgency=low
   * Update the patches:
     - variantIsTrue-float-fix.diff: remove applied parts
     - testinternationalization-qreal.diff: remove, applied upstream
+  * Update .install files.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
 
