@@ -1,3 +1,10 @@
+grantlee (0.4.0-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
+
 grantlee (0.3.0-5) unstable; urgency=low
 
   * Slightly modify libgrantlee-dev.install so it is not affected by the actual
