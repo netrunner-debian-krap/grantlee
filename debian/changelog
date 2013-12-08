@@ -7,6 +7,7 @@ grantlee (0.4.0-0r1) UNRELEASED; urgency=low
   * Bump the cmake build dependency to 2.8.9.
   * Update the patches:
     - variantIsTrue-float-fix.diff: remove applied parts
+    - testinternationalization-qreal.diff: remove, applied upstream
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
 
