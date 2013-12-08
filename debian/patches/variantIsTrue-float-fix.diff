@@ -1,30 +1,11 @@
 Author: Pino Toscano <toscano.pino@tiscali.it>
 Description: Fix variantIsTrue for float variants
- Grantlee::variantIsTrue() was not properly checking whether a QVariant
- containing a float (for example a qreal on arm and sh platforms)
- is a true value, simply because its type was not be handled in the type
- switch, and thus it was handled as string.
- Adding the QMetaType::Float case and extracting the float as such from
- the variant fixes the issue.
- .
  The test data for TestDefaultTags::testIfTag() has been expaded to
  include if-truthiness data explicitly for double and float values,
  so the they can be both tested no matter what qreal is.
-Last-Update: 2013-05-14
+Last-Update: 2013-12-08
 Forwarded: https://www.gitorious.org/grantlee/grantlee/merge_requests/10
 
---- a/templates/lib/util.cpp
-+++ b/templates/lib/util.cpp
-@@ -49,6 +49,9 @@ bool Grantlee::variantIsTrue( const QVar
-   case QVariant::Double: {
-     return ( variant.toDouble() > 0 );
-   }
-+  case QMetaType::Float: {
-+    return ( variant.toFloat() > 0 );
-+  }
-   case QMetaType::QObjectStar: {
-     QObject *obj = variant.value<QObject *>();
-     if ( !obj )
 --- a/templates/tests/testdefaulttags.cpp
 +++ b/templates/tests/testdefaulttags.cpp
 @@ -617,6 +617,20 @@ void TestDefaultTags::testIfTag_data()
