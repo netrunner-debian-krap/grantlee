@@ -1,7 +1,9 @@
 grantlee (0.4.0-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
-  * New upstream release.
+  * New upstream release:
+    - the provided jQuery (for an example) has been updated and it is provided
+      in uncompressed form (Closes: #710215)
   * Bump the cmake build dependency to 2.8.9.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
