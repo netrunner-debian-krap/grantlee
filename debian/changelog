@@ -1,6 +1,5 @@
-grantlee (0.4.0-0r1) UNRELEASED; urgency=low
+grantlee (0.4.0-1) experimental; urgency=low
 
-  [ Pino Toscano ]
   * New upstream release:
     - the provided jQuery (for an example) has been updated and it is provided
       in uncompressed form (Closes: #710215)
@@ -13,7 +12,7 @@ grantlee (0.4.0-0r1) UNRELEASED; urgency=low
   * Convert copyright to copyright-format v1.0, and update it.
   * Bump default priority of all packages (except grantlee-dbg) to optional.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 09:56:01 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 08 Dec 2013 11:19:44 +0100
 
 grantlee (0.3.0-5) unstable; urgency=low
 
