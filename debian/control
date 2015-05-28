@@ -6,15 +6,19 @@ Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Pino Toscano <pino@debian.org>
-Build-Depends: debhelper (>= 9), libqt4-dev (>= 4.5), cmake (>= 2.8.9),
- qtbase5-dev,
- qtscript5-dev,
- qttools5-dev,
- qttools5-dev-tools,
- pkg-kde-tools,
- cccc,
- lcov,
- xvfb, xauth
+Build-Depends: cccc,
+               cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               lcov,
+               libboost-dev,
+               libqt4-dev (>= 4.5),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.2.0~),
+               qtscript5-dev (>= 5.2.0~),
+               qttools5-dev,
+               qttools5-dev-tools,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: http://www.grantlee.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/grantlee.git;a=summary
@@ -22,7 +26,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/grantlee.git
 
 Package: libgrantlee-gui0
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Grantlee templating library for Qt - GUI
  Grantlee is a string template engine based on the Django template system
  and written in Qt.
@@ -31,7 +35,7 @@ Description: Grantlee templating library for Qt - GUI
 
 Package: libgrantlee-core0
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Grantlee templating library for Qt - Core
  Grantlee is a string template engine based on the Django template system
  and written in Qt.
@@ -42,8 +46,10 @@ Description: Grantlee templating library for Qt - Core
 Package: libgrantlee-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libgrantlee-core0 (= ${binary:Version}),
- libgrantlee-gui0 (= ${binary:Version}), libqt4-dev
+Depends: libgrantlee-core0 (= ${binary:Version}),
+         libgrantlee-gui0 (= ${binary:Version}),
+         libqt4-dev,
+         ${misc:Depends}
 Description: Grantlee templating library development files
  Grantlee is a string template engine based on the Django template system
  and written in Qt.
@@ -55,8 +61,8 @@ Package: grantlee-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ${misc:Depends},
- libgrantlee-core0 (= ${binary:Version}) | libgrantlee-gui0 (= ${binary:Version})
+Depends: libgrantlee-core0 (= ${binary:Version}) | libgrantlee-gui0 (= ${binary:Version}),
+         ${misc:Depends}
 Suggests: libqt4-dbg
 Description: Grantlee templating library (debugging symbols)
  Grantlee is a string template engine based on the Django template system
