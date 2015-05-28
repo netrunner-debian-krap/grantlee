@@ -19,7 +19,7 @@ Build-Depends: cccc,
                qttools5-dev-tools,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.grantlee.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/grantlee.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/grantlee.git
