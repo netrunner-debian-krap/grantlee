@@ -7,7 +7,13 @@ Uploaders: Bjoern Ricks <bjoern.ricks@intevation.de>,
            Maximiliano Curia <maxy@debian.org>,
            Pino Toscano <pino@debian.org>
 Build-Depends: debhelper (>= 9), libqt4-dev (>= 4.5), cmake (>= 2.8.9),
+ qtbase5-dev,
+ qtscript5-dev,
+ qttools5-dev,
+ qttools5-dev-tools,
  pkg-kde-tools,
+ cccc,
+ lcov,
  xvfb, xauth
 Standards-Version: 3.9.5
 Homepage: http://www.grantlee.org/
