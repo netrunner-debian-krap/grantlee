@@ -6,10 +6,12 @@ Description: Fix variantIsTrue for float variants
 Last-Update: 2013-12-08
 Forwarded: https://www.gitorious.org/grantlee/grantlee/merge_requests/10
 
---- a/templates/tests/testdefaulttags.cpp
-+++ b/templates/tests/testdefaulttags.cpp
-@@ -617,6 +617,20 @@ void TestDefaultTags::testIfTag_data()
-   dict.insert( QLatin1String( "var" ), r );
+Index: grantlee/templates/tests/testdefaulttags.cpp
+===================================================================
+--- grantlee.orig/templates/tests/testdefaulttags.cpp	2015-05-28 11:27:27.693597227 +0200
++++ grantlee/templates/tests/testdefaulttags.cpp	2015-05-28 11:27:27.665598350 +0200
+@@ -610,6 +610,20 @@
+   dict.insert( QStringLiteral( "var" ), r );
    QTest::newRow( "if-truthiness10" ) << QString::fromLatin1( "{% if var %}Yes{% else %}No{% endif %}" ) << dict << QString::fromLatin1( "Yes" ) << NoError;
  
 +  double d = 0.0;
