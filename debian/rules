@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 testsuite_failing_archs := ia64 sparc64
 ifneq (,$(filter $(DEB_HOST_ARCH),$(testsuite_failing_archs)))
@@ -11,16 +12,16 @@ endif
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DBUILD_TESTS=ON
+	dh_auto_configure -- -DBUILD_TESTS=ON -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)"
 
 override_dh_auto_test:
 	xvfb-run dh_auto_test $(fail_param)
 
 override_dh_makeshlibs:
-	dh_makeshlibs -V -X/usr/lib/grantlee/
+	dh_makeshlibs -V -X/usr/lib/$(DEB_HOST_MULTIARCH)/grantlee/
 
 override_dh_install:
 	dh_install --fail-missing
 
 override_dh_strip:
-	dh_strip --dbg-package=grantlee-dbg
+	dh_strip --dbg-package=grantlee5-dbg
