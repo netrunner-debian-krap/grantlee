@@ -1,11 +1,11 @@
-grantlee5 (5.0.0-1~) UNRELEASED; urgency=medium
+grantlee5 (5.0.0-1) unstable; urgency=medium
 
   * New upstream release (5.0.0).
   * Update copyright information.
   * Add symbols files.
   * Drop boost build dep, only needed for the tests in solaris.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 28 May 2015 09:50:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 23:00:17 +0200
 
 grantlee (0.4.0-2) unstable; urgency=medium
 
