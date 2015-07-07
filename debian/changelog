@@ -2,6 +2,7 @@ grantlee5 (5.0.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.0.0).
   * Update copyright information.
+  * Add symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 28 May 2015 09:50:08 +0200
 
