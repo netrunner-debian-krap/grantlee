@@ -1,6 +1,6 @@
 grantlee (0.4.0-3~) UNRELEASED; urgency=medium
 
-  * 
+  * Update symbols files. (Closes: #777889)
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Aug 2015 16:36:21 +0200
 

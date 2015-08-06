@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.3.0 armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 0.4.0 amd64
 libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
 * Build-Depends-Package: libgrantlee-dev
  _ZN8Grantlee14MarkupDirector11processListEN10QTextFrame8iteratorERK10QTextBlockP9QTextList@Base 0.1.4
@@ -137,7 +137,7 @@ libgrantlee_gui.so.0 libgrantlee-gui0 #MINVER#
  _ZTTN8Grantlee22PlainTextMarkupBuilderE@Base 0.1.4
  _ZTVN8Grantlee14MarkupDirectorE@Base 0.1.4
  _ZTVN8Grantlee15TextHTMLBuilderE@Base 0.1.4
- _ZTVN8Grantlee21AbstractMarkupBuilderE@Base 0.1.4
+ (optional=gccinternal)_ZTVN8Grantlee21AbstractMarkupBuilderE@Base 0.1.4
  _ZTVN8Grantlee22PlainTextMarkupBuilderE@Base 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::addNewline()@Base" 0.1.4
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::appendLiteralText(QString const&)@Base" 0.1.4
