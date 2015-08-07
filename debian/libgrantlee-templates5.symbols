@@ -115,9 +115,9 @@ libGrantlee_Templates.so.5 libgrantlee-templates5 #MINVER#
  _ZN8Grantlee12VariableNode16staticMetaObjectE@Base 5.0.0
  _ZN8Grantlee12VariableNodeC1ERKNS_16FilterExpressionEP7QObject@Base 5.0.0
  _ZN8Grantlee12VariableNodeC2ERKNS_16FilterExpressionEP7QObject@Base 5.0.0
- _ZN8Grantlee12VariableNodeD0Ev@Base 5.0.0
- _ZN8Grantlee12VariableNodeD1Ev@Base 5.0.0
- _ZN8Grantlee12VariableNodeD2Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee12VariableNodeD0Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee12VariableNodeD1Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee12VariableNodeD2Ev@Base 5.0.0
  _ZN8Grantlee12isSafeStringERK8QVariant@Base 5.0.0
  _ZN8Grantlee13NullLocalizer10pushLocaleERK7QString@Base 5.0.0
  _ZN8Grantlee13NullLocalizer11loadCatalogERK7QStringS3_@Base 5.0.0
@@ -271,9 +271,9 @@ libGrantlee_Templates.so.5 libgrantlee-templates5 #MINVER#
  _ZN8Grantlee8TextNode16staticMetaObjectE@Base 5.0.0
  _ZN8Grantlee8TextNodeC1ERK7QStringP7QObject@Base 5.0.0
  _ZN8Grantlee8TextNodeC2ERK7QStringP7QObject@Base 5.0.0
- _ZN8Grantlee8TextNodeD0Ev@Base 5.0.0
- _ZN8Grantlee8TextNodeD1Ev@Base 5.0.0
- _ZN8Grantlee8TextNodeD2Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee8TextNodeD0Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee8TextNodeD1Ev@Base 5.0.0
+ (optional=gccinternal)_ZN8Grantlee8TextNodeD2Ev@Base 5.0.0
  _ZN8Grantlee8VariableC1ERK7QString@Base 5.0.0
  _ZN8Grantlee8VariableC1ERKS0_@Base 5.0.0
  _ZN8Grantlee8VariableC1Ev@Base 5.0.0

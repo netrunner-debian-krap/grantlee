@@ -136,7 +136,7 @@ libGrantlee_TextDocument.so.5 libgrantlee-textdocument5 #MINVER#
  _ZTTN8Grantlee22PlainTextMarkupBuilderE@Base 5.0.0
  _ZTVN8Grantlee14MarkupDirectorE@Base 5.0.0
  _ZTVN8Grantlee15TextHTMLBuilderE@Base 5.0.0
- _ZTVN8Grantlee21AbstractMarkupBuilderE@Base 5.0.0
+ (optional=gccinternal)_ZTVN8Grantlee21AbstractMarkupBuilderE@Base 5.0.0
  _ZTVN8Grantlee22PlainTextMarkupBuilderE@Base 5.0.0
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::addNewline()@Base" 5.0.0
  (c++)"virtual thunk to Grantlee::PlainTextMarkupBuilder::appendLiteralText(QString const&)@Base" 5.0.0
